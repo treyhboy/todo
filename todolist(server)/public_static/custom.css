@@ -1,0 +1,29 @@
+#todolist-container {
+    padding: 20px;
+}
+
+.todo-done {
+    text-decoration: line-through;
+    color: #999;
+}
+.chang
+{
+    margin-left: 6000px;
+}
+.delete {
+    color: #d9534f;
+}
+
+.icn-move {
+    color: #0275d8;
+}
+
+li:first-child > .ion-arrow-up-b {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+li:last-child > .ion-arrow-down-b{
+    visibility: hidden;
+    pointer-events: none;
+}
